@@ -95,7 +95,7 @@ defmodule ErrorTracker.MixProject do
       {:ecto_sqlite3, ">= 0.0.0", optional: true},
       # Dev dependencies
       {:bun, "~> 1.3", only: :dev},
-      {:credo, "~> 1.7", only: [:dev, :test]},
+      {:credo, ">= 1.7.9", only: [:dev, :test]},
       {:ex_doc, "~> 0.33", only: :dev},
       {:phoenix_live_reload, ">= 0.0.0", only: :dev},
       {:plug_cowboy, ">= 0.0.0", only: :dev},
