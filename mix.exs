@@ -101,7 +101,7 @@ defmodule ErrorTracker.MixProject do
       {:plug_cowboy, ">= 0.0.0", only: :dev},
       {:tailwind, "~> 0.2", only: :dev},
       # Optional dependencies
-      {:igniter, "~> 0.5", optional: true}
+      {:igniter, "~> 0.6", optional: true}
     ]
   end
 
